@@ -1,0 +1,92 @@
+body {
+  width: 1280px;
+}
+.nav-row {
+  display: flex;
+  flex-direction: row;
+  background-color: black;
+  justify-content: space-around;
+  padding: 15px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  width: 1250px;
+  margin-bottom: -25px;
+  margin-top: -20px;
+}
+.nav-item a{
+  color: white;
+  font-style: normal;
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: black;
+  list-style: none;
+  font-family: "josefin sans";
+  align-self: center;
+}
+.page-header{
+background-image: url('../img/header-img.jpg');
+background-repeat: no-repeat;
+background-size: contain;
+width: 1280px;
+height: 600px;
+}
+.header-content{
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content:;
+  align-items:center;
+  transform: translate(41.5vh,10vh);
+}
+.main-heading{
+  font-size: 8em;
+  font-family: "Josefin Sans";
+}
+.sub-heading{
+  font-size: 4.25em;
+  font-family: "Dancing Script";
+  Color: white;
+  transform: translateY(-27vh);
+  text-shadow: 1px 1px 8px black;
+}
+main {
+  display: flex;
+  background-color: #FFEDC5;
+  margin-left: 120px;
+  margin-right: 120px;
+  flex-wrap:nowrap;
+  flex-direction:row;
+  transform: translateY(-20vh);
+  box-shadow: 2px 1px 2px grey;
+}
+.blog-row {
+margin-top: 30px;
+}
+.item{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin: 20px;
+  margin-left: 80px;
+  margin-top: 30px;
+  border: 1px solid grey;
+  box-shadow: 1px 1px 2px grey;
+  background-color: white;
+}
+.meta{
+  border-bottom: 2px solid beige;
+  flex-direction: row;
+  display:flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.icon-wrapper{
+  display: flex;
+  background-color: beige;
+  border-radius: 40px;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  transform: translate(22vh,5vh)
+
+}
